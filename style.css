@@ -5,6 +5,44 @@
     4. Visuales
     5. Otros
 */
+
+:root {
+    /*Variables para colores*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary_blue: #1A9AF7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
 * {
-    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
 }
